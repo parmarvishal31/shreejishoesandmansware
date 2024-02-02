@@ -1,5 +1,13 @@
 import React from "react";
 import Icon from "../assets/shoes___mens_wear.png";
+import Icon1 from "../assets/1.png";
+import Icon2 from "../assets/2.png";
+import Icon3 from "../assets/3.png";
+import Icon4 from "../assets/4.png";
+import Icon5 from "../assets/5.png";
+import Icon6 from "../assets/6.png";
+import Icon7 from "../assets/7.png";
+import Product from "../assets/shreejishoesandmeanswaer.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -36,6 +44,67 @@ function Home() {
         <p className="text-center">
           "Your Ultimate Destination for Stylish Footwear and Menswear!"
         </p>
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-4 mt-8">
+        {/* Repeat this section for each product */}
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon1} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold">Shoes</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon2} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold flex flex-wrap" >Sport t shirt</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon3} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold flex flex-wrap">Rings</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon4} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold">Belts</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon5} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold">Watchs</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon6} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold">Night dress for men</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2  w-28 h-44 p-2 m-2" style={{boxShadow:" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>
+          <div className="w-24 h-24">
+            <img src={Icon7} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-center font-semibold">Parfums</h1>
+          </div>
+        </div>
+        {/* Repeat this section for each product */}
       </div>
 
       <div className="flex flex-col justify-center mt-10 items-center">
