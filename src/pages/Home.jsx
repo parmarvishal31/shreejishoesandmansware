@@ -37,7 +37,7 @@ function Home() {
     { id: 3, image: Icon3, title: "Rings" },
     { id: 4, image: Icon4, title: "Belts" },
     { id: 5, image: Icon5, title: "Watches" },
-    { id: 6, image: Icon6, title: "Night dress for men" },
+    { id: 6, image: Icon6, title: "Night dress" },
     { id: 7, image: Icon7, title: "Parfums" },
   ];
 
