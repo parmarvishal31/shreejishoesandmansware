@@ -82,7 +82,7 @@ function Home() {
       </div>
 
       {/* <h1>"Discover Ultimate Style Solution: Elevate Your Wardrobe with Trendsetting Footwear and Menswear! 🌟 Shop Now for Unmatched Comfort and Stylish Designs!"</h1> */}
-      <div className="mt-10 h-48">
+      <div className="mt-10 h-64">
         <Carousel theme={carouselTheme}>
           {products.map((product) => (
             <div
