@@ -153,13 +153,14 @@ function Home() {
 
       <div className="flex flex-col mt-6 items-center ">
         <div className="font-semibold flex items-center justify-center gap-2 ">
-          <h1>Address </h1>
-          <Link to={map}>
-            <FaMapMarkerAlt />
-          </Link>
+          <h1 className="font-semibold fancy-underline">Address </h1>
+          
         </div>
 
-        <div className="m-2 flex justify-center items-center gap-2 w-full flex-wrap text-center ml-1 mr-1">
+        <div className="m-2 mt-6 flex justify-center items-center gap-2 w-full flex-wrap text-center ml-1 mr-1">
+        <Link to={map} className="text-xl">
+            <FaMapMarkerAlt />
+          </Link>
           <span className="text-lg">
             Sara road,Near by shishu mandir school - halvad
           </span>
