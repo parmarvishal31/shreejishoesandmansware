@@ -8,7 +8,6 @@ import Icon4 from "../assets/4.png";
 import Icon5 from "../assets/5.png";
 import Icon6 from "../assets/6.png";
 import Icon7 from "../assets/7.png";
-import LogoVideo from '../assets/shoes.mp4';
 
 
 import { Carousel } from "flowbite-react";
