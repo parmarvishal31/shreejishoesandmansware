@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Icon from "../assets/shoes___mens_wear.png";
+// import Icon from "../assets/shoes___mens_wear.png";
+import Icon from "../assets/shoes-ezgif.com-video-to-webp-converter.webp";
 import Icon1 from "../assets/1.png";
 import Icon2 from "../assets/2.png";
 import Icon3 from "../assets/3.png";
@@ -7,7 +8,8 @@ import Icon4 from "../assets/4.png";
 import Icon5 from "../assets/5.png";
 import Icon6 from "../assets/6.png";
 import Icon7 from "../assets/7.png";
-import Product from "../assets/shreejishoesandmeanswaer.png";
+import LogoVideo from '../assets/shoes.mp4';
+
 
 import { Carousel } from "flowbite-react";
 import {
