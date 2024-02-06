@@ -162,7 +162,7 @@ function Home() {
             <FaMapMarkerAlt />
           </Link>
           <span className="text-lg">
-            Sara road,Near by shishu mandir school - halvad
+            Sara road,Opp shishu mandir school - halvad
           </span>
           {/* <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7344.878354530391!2d71.1821666!3d23.0076416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395a2bd4987f3f39%3A0x2908aeaa2fef519!2sShreeji%20shoes%20%26%20meanswear!5e0!3m2!1sen!2sin!4v1706936679752!5m2!1sen!2sin" frameBorder="2" className="w-full h-48"></iframe> */}

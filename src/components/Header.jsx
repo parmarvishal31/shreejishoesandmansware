@@ -28,13 +28,13 @@ function Header() {
         <AiOutlineSearch />
       </Button> */}
       <div className="flex gap-2 md:order-2">
-        <Button className="w-12 h-10 hidden sm:inline" color="gray" pill>
+        <Button className="w-12 h-10 hidden sm:inline" color="gray" pill >
           <FaMoon />
         </Button>
         {/* <Link to="/signin">
           <Button  gradientDuoTone='purpleToBlue'>Sign in</Button>
         </Link> */}
-        <Navbar.Toggle/>
+        <Navbar.Toggle disabled={true} />
       </div>
         <Navbar.Collapse>
           <Navbar.Link active={path === '/'} as={'div'}> 
